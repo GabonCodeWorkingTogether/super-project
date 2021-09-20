@@ -1,5 +1,5 @@
 # super-project
 
-## Projet collaboratif
+## Projet collaborative
 
- A faire: ajouter un ".gitignore"
+ To do : add a ".gitignore"
