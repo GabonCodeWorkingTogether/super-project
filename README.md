@@ -2,4 +2,4 @@
 
 ## Projet collaborative
 
- To do : add a ".gitignore"
+ To do : add a file ".gitignore"
