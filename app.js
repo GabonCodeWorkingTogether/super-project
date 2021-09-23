@@ -3,45 +3,53 @@ document.addEventListener('DOMContenLoaded', () =>{
     //card options
     const cardArray = [
         {
-            name: 'ice-cream',
-            img: 'images/ice-cream.png'
-          },
-          {
-            name: 'pizza',
-            img: 'images/pizza.png'
-          },
-          {
-            name: 'milkshake',
-            img: 'images/milkshake.png'
-          },
-          {
-            name: 'hotdog',
-            img: 'images/hotdog.png'
-          },
-          {
             name: 'fries',
             img: 'images/fries.png'
-          },
-          {
+        },
+        {
             name: 'cheeseburger',
             img: 'images/cheeseburger.png'
-          },
-          {
+        },
+        {
             name: 'ice-cream',
             img: 'images/ice-cream.png'
-          },
-          {
+        },
+        {
             name: 'pizza',
             img: 'images/pizza.png'
-          },
-          {
+        },
+        {
             name: 'milkshake',
             img: 'images/milkshake.png'
-          },
-          {
+        },
+        {
             name: 'hotdog',
             img: 'images/hotdog.png'
-          }
+        },
+        {
+            name: 'fries',
+            img: 'images/fries.png'
+        },
+        {
+            name: 'cheeseburger',
+            img: 'images/cheeseburger.png'
+        },
+        {
+            name: 'ice-cream',
+            img: 'images/ice-cream.png'
+        },
+        {
+            name: 'pizza',
+            img: 'images/pizza.png'
+        },
+        {
+            name: 'milkshake',
+            img: 'images/milkshake.png'
+         },
+         {
+            name: 'hotdog',
+            img: 'images/hotdog.png'
+         }
         
     ]
 
@@ -71,11 +79,10 @@ document.addEventListener('DOMContenLoaded', () =>{
         const optionOneId = cardsChosenId[0]
         const optionTwoId = cardsChosenId[1]
         
-        if(cardsChosen[0] === cardsChosen[1]) {
-            alert('You found a match')
+        if(optionOneId === optionTwoId) {
             cards[optionOneId].setAttribute('src', 'images/blank.png')
             cards[optionTwoId].setAttribute('src', 'images/blank.png')
-            cardsWon.push(cardsChosen)
+            alert('You have ve clicked the same image');
         }
         else if (cardsChosen[0] === cardsChosen[1]) {
             alert('You found a match')
